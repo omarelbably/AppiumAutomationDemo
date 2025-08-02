@@ -64,12 +64,11 @@ AppiumAutomationDemo/
 │   ├── main/
 │   │   └── java/
 │   │       ├── pages/        # Page Object Model classes (Android screens) 📄
-│   │       ├── utils/        # Utility classes (driver management, actions, logging, configuration) 🛎️
+│   │       ├── utils/        # Utility classes (driver management, actions, logging, configuration, readers) 🛎️
 │   │       └── resources/    # Config files, test data 🗃️
 │   └── test/
 │       └── java/
 │           ├── tests/        # Test case classes 📝
-│           ├── utils/        # Test-level utilities (may overlap with main/utils) 🛎️
 │           └── resources/    # Test-specific data/config 🗃️
 ├── pom.xml                   # Build configuration files 📦
 ├── README.md                 # Project documentation 📜
