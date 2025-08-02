@@ -8,7 +8,7 @@ import org.ElbablyAcademy.utilities.readers.ConfigManager;
 import org.ElbablyAcademy.utilities.readers.JsonUtils;
 
 public class ApiDemosTest extends BaseTest {
-    private WifiTestData testData;
+    private final WifiTestData testData;
     public ApiDemosTest(){
         this.apiDemosPage = new ApiDemosPage(driver);
         this.testData = JsonUtils.getTestData(ConfigManager.getProperty("wifi.testdata"), WifiTestData.class);
