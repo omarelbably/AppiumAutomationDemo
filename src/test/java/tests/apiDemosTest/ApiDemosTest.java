@@ -1,15 +1,11 @@
 package tests.apiDemosTest;
 
 import org.ElbablyAcademy.pages.apidemos.firstactivity.ApiDemosPage;
-import org.ElbablyAcademy.pages.apidemos.firstactivity.preference.PreferencePage;
-import org.ElbablyAcademy.pages.apidemos.firstactivity.preference.preferencedependencies.PreferenceDependenciesPage;
-import org.ElbablyAcademy.pages.apidemos.firstactivity.views.ViewsPage;
-import org.ElbablyAcademy.pages.apidemos.firstactivity.views.draganddrop.DragAndDropPage;
 import org.testng.annotations.Test;
 import tests.BaseTest;
 import tests.apiDemosTest.TestDataModule.WifiTestData;
-import utils.ConfigManager;
-import utils.JsonUtils;
+import org.ElbablyAcademy.utilities.readers.ConfigManager;
+import org.ElbablyAcademy.utilities.readers.JsonUtils;
 
 public class ApiDemosTest extends BaseTest {
     private WifiTestData testData;

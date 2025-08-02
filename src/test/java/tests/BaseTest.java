@@ -9,14 +9,13 @@ import org.ElbablyAcademy.pages.apidemos.firstactivity.preference.PreferencePage
 import org.ElbablyAcademy.pages.apidemos.firstactivity.preference.preferencedependencies.PreferenceDependenciesPage;
 import org.ElbablyAcademy.pages.apidemos.firstactivity.views.ViewsPage;
 import org.ElbablyAcademy.pages.apidemos.firstactivity.views.draganddrop.DragAndDropPage;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import utils.ConfigManager;
+import org.ElbablyAcademy.utilities.readers.ConfigManager;
 
 import java.io.File;
 import java.net.MalformedURLException;
