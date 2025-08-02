@@ -32,7 +32,7 @@ This document serves as a comprehensive guide for using the **AppiumAutomationDe
 
 **AppiumAutomationDemo** is a modular, scalable automation framework built for Android mobile application testing using Appium. The framework is designed for easy onboarding, rapid test development, and maintainability.
 
-> **Note:** This repository focuses exclusively on Android automation. Components and configurations for iOS are not included or supported. 🟢🤖
+> **Note:** This repository focuses exclusively on Android automation. Components and configurations for iOS are not yet included or supported. 🟢🤖
 
 ---
 
